@@ -1,0 +1,160 @@
+@import 'index.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui.header {
+  color:whitesmoke !important;
+}
+
+center{
+  background-image: url(https://images.unsplash.com/photo-1478428036186-d435e23988ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+  height: 1000vh;
+}
+
+a{
+  font-family: monospace;
+  font-size: 25px;
+
+}
+
+.ui.secondary.pointing.menu {
+  background-color: lightslategrey;
+  border-style: solid;
+  border-width: 0px;
+}
+
+.active.item {
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* ________________________________________________________ */
+
+a:-webkit-any-link {
+  background-color: lightslategrey ;
+  width: 125px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a:-webkit-any-link::hover{
+  width: 130px;
+  color:darkgrey;
+  transition: 1s ease ;
+}
+
+.ui.secondary.pointing.menu .active.item{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.secondary.pointing.menu .item{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.secondary.menu .active.item {
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.secondary.pointing.menu .item{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.menu:last-child{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.secondary.menu{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.hover{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.secondary.pointing.menu .active.item{
+  background-color: rgba(0, 0, 0, 0.219);
+  color:whitesmoke;
+}
+
+.ui.header {
+  color: whitesmoke;
+}
+
+.ui.card {
+  background-color: grey;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+  background-color: dimgray;
+}
+
+body ::-webkit-scrollbar-track {
+  background-color: dimgray;
+  border-radius: 0;
+}
+
+img.ui.image {
+background-color: black;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  padding: 0;
+  background: slategray !important;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
